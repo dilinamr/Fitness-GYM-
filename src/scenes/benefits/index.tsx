@@ -76,7 +76,7 @@ const index = ({ setSelectedPage }: Props) => {
               icon={benefit.icon}
               title={benefit.title}
               description={benefit.description}
-              setSelectedPage={SelectedPage}
+              setSelectedPage={setSelectedPage}
             />
           ))}
         </motion.div>
